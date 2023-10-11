@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif; /* Choose a font family */
+    background-color: #f0f0f0; /* Background color for the entire page */
+    text-align: center; /* Center-align text horizontally */
+    padding: 100px; /* Add some padding to the page */
+  }
+  
+h1 {
+    color: #333; /* Text color for the heading */
+    font-size: 24px; /* Font size for the heading */
+  }
+
+p {
+    color: grey;
+    font-size: 16px;
+}
