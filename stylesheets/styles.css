@@ -72,6 +72,21 @@ a {
     max-width: 100%;
 }
 
+.section {
+    display: inline-block;
+}
+
+.section img {
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.section p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
