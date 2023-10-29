@@ -73,7 +73,7 @@ a {
 }
 
 .portfolio-item img {
-    max-width: 50%;
+    max-width: 500px;
 }
 
 .section {
@@ -81,7 +81,7 @@ a {
 }
 
 .section img {
-    max-width: 50%;
+    max-width: 500px;
     vertical-align: middle;
 }
 
