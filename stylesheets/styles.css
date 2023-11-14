@@ -57,7 +57,7 @@ a {
 }
 
 .about-content img {
-    max-width: 50%;
+    max-width: 60%;
     border-radius: 50%;
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 .portfolio-item img {
-    max-width: 500px;
+    max-width: 60%;
 }
 
 .section {
@@ -81,7 +81,7 @@ a {
 }
 
 .section img {
-    max-width: 500px;
+    max-width: 60%;
     vertical-align: middle;
 }
 
