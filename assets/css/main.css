@@ -783,6 +783,10 @@ hr {
   padding: 100px 0 80px;
 }
 
+#hero-area .head-title {
+  color: #ffffff;
+}
+
 #hero-area .contents .head-title {
   color: #ffffff;
   font-size: 42px;
