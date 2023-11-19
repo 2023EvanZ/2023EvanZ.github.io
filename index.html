@@ -1,69 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Evan Zhang - Personal Website</title>
+
+    <!-- boostrap4-->
+    <link rel = "stylesheet" href = "assets/css/bootstrap.min.css">
+
+    <!-- icon style sheet-->
+    <link rel = "stylesheet" href = "assets/fonts/line-icons.css">
+
+    <!-- CSS Style link-->
+    <link rel = "stylesheet" href = "assets/css/main.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evan Zhang - Personal Website</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Evan Zhang</h1>
-                <h1>University of Virginia</h1>
-                <h1>Class of 2027</h1>
+    <header id = "header-wrap">
+        <!--=================== Nav Bar & Header Area ===================-->
+        <nav class = "navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+            <div class = "container">
+                <a href = "#" class = "navbar-brand">
+                    <img src = "assets/img/logo.png"/>
+                </a>
+                <!--menu-->
+                <div class = "collapse navbar-collapse" id = "navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearefix">
+                        <li class="nav-item active">
+                            <a href ="#" class= "nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href ="#" class= "nav-link">Service</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a href ="#" class= "nav-link">Team</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#" class= "nav-link">Pricing</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#" class= "nav-link">Testimonial</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#" class= "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav>
-    </header>
 
-    <section id="hero" class="hero">
-        <div class="hero-text">
-            <h1>Welcome to My Personal Website</h1>
-            <p>Explore my work and learn more about me.</p>
-        </div>
-    </section>
+        <!--=================== Hero Area ===================-->
+        <div id = "hero-area" class = "hero-area-bg">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <p>My Name</p>
+                        <h2 class = "head-title">Evan Zhang</h2>
+                        <h6>I'M A <span>CS Major</span></h6>
+                            <p>Blank text</p>
+                            <div class="header-button">
+                                <a href="#" class = "btn btn-common">Hire Me</a>
+                                <a href="#" class = "btn btn-border video-popup">Download CV</a>
+                            </div>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="images/Facebook PFP.JPG" alt="Your Name">
-            <p>Write a brief introduction about yourself here.</p>
-        </div>
-    </section>
+                    </div>
+                    <!--Image-->
+                    <div class = "col-lg-5  col-md-12 col-sm-12 col-xs-12">
+                        <div class = "intro-img">
+                            <img class = "img-fluid" src = "assets/img/images.png" alt = ""/>
+                        </div>
+                    </div>
 
-    <section id="portfolio" class="section">
-        <h2>Portfolio</h2>
-        <img src = "images/projects image.jpg" alt="My Projects">
-        <div class="portfolio-items">
-            <div class="portfolio-item">
-                <!-- <img src="project1.jpg" alt="Project 1"> -->
-                <h3>Project 1</h3>
-                <p>Description of your project.</p>
+                </div>
+
             </div>
-            <div class="portfolio-item">
-                <!-- <img src="project2.jpg" alt="Project 2"> -->
-                <h3>Project 2</h3>
-                <p>Description of your project.</p>
-            </div>
-            <!-- Add more portfolio items as needed -->
+
         </div>
+
+    </header> <!--End Personal Area-->
+
+    <!--============ About Area ============-->
+    <div class="about-area section-padding bg-gray">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-6 col-md-12 col-xs-12 info">
+                    <div class= "about-wrapper wow fadeInLeft" data-wow-delay = "0.3s">
+                        <div>
+                            <div class = "site-heading">
+                                <p class = "mb-3">About Me</p>
+                                <h2 class = "section-title">Learn Something About Me</h2>
+                            </div>
+                            <div class="content">
+                                <p>Blank Text
+
+                                    <a href = "#" class = "btn btn-common mt-3">Download CV</a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--about image-->
+                <div class="col-lg-6 col-md-12 col-xs-12 wow fadeinRight" data-wow-dealy = "0.3s">
+                    <img src = "assets/img/about.png" alt = "" class = "img-fluid">
+
+                </div>
+            </div>
+        </div>
+    </div> <!--End About Section-->
+
+    <!--============ Feature Section ============-->
+    <section id = "features" class = "section-padding">
+        <div class = "container">
+            <div class = "section-header text-center">
+                <h2 class = "section-title wow fadeInDown" data-wow-delay = "0.3s">
+                    Awesome Feature
+                </h2>
+                <div class="shape wow fadeInDown" data-wow-delay = "0.3s">'
+
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class= "content-left">
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-rocket"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Bootstrap 4 Based</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+                        <!--2nd-->
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-laptop-phone"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Fully Responsive</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+                        <!--3rd-->
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-cog"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>HTML5, CSS3 & SASS</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--about image-->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class = "show-box wow fadeInUp" data-wow-delay="0.3s">
+                        <img src ="assets/img/about.png" alt = "">
+
+                    </div>
+                </div>
+
+
+                <!--2nd row-->
+                <div class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class= "content-right">
+                        <div class = "box-item wow fadeInRightt" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-leaf"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Modern Design</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+                        <!--2nd-->
+                        <div class = "box-item wow fadeInRight" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-layers"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Multi-purpose Template</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+                        <!--3rd-->
+                        <div class = "box-item wow fadeInRight" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-leaf"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Working Contact Form</h4>
+                                <p>Blank Text</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section> <!--End Service-->
+
+
+
+    <!--============ Team Section ============-->
+    <section id = "team" class = "section-padding bg-gray">
+        <div class = "container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay = "0.3s">
+                    Meet Our Team
+                </h2>
+                <div class = "shape wow fadeInDown" data-wow-delay="0.3s">
+
+                </div>
+                
+                <!--team Item Starts-->
+                <div class = "row">
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/team-01.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">David Smith</a></h3>
+                                    <p>Front-end Developer</p>
+                                </div>
+                                <p>Blank Text.</p>
+                                
+                            <!--social icon-->
+                            <ul class="social-icons">
+                                <li><a href = "#"><i class = "lni-facebook-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-twitter-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-instagram-filled"></i></a></li>
+
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/team-02.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">ERIC PETERSON</a></h3>
+                                    <p>Product Designer</p>
+                                </div>
+                                <p>Blank Text.</p>
+                                
+                            <!--social icon-->
+                            <ul class="social-icons">
+                                <li><a href = "#"><i class = "lni-facebook-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-twitter-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-instagram-filled"></i></a></li>
+
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.6s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/team-03.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">DURWIN BABB</a></h3>
+                                    <p>Lead Designer</p>
+                                </div>
+                                <p>Blank Text.</p>
+                                
+                            <!--social icon-->
+                            <ul class="social-icons">
+                                <li><a href = "#"><i class = "lni-facebook-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-twitter-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-instagram-filled"></i></a></li>
+
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.8s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/team-04.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">MARIJN OTTE</a></h3>
+                                    <p>Lead Designer</p>
+                                </div>
+                                <p>Blank Text.</p>
+                                
+                            <!--social icon-->
+                            <ul class="social-icons">
+                                <li><a href = "#"><i class = "lni-facebook-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-twitter-filled"></i></a></li>
+                                <li><a href = "#"><i class = "lni-instagram-filled"></i></a></li>
+
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section> <!--End Section-->
+
+    <!--============ Testimonial ============-->
+    <section id = "testimonial" class = "testimonial section-padding">
+        <div class="container">
+            <div class = "row justify-content-center">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id = "testimonials" class = "owl-carousel wow fadeInUp" data-wow-delay=""1.2s>
+                        <div class = "item">
+                            <div id="testimonial-item">
+                                <div class="img-thumb">
+                                    <img src="assets/img/testimonial/img1.jpg" alt = "">
+                                </div>
+                                <div class = "info">
+                                    <h2><a href = "#">David Smith</a></h2>
+                                    <h3><a href = "#">Creative Head</a></h3>
+                                </div>
+                            </div>
+                            <div class = "content">
+                                <p class="description">Blank Text</p>
+                            <!--ratings--> 
+                                <div class="star-icon mt-3">
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-half"></i></span>
+                                </div>  
+                            </div>
+                        </div>
+                        <!--2nd-->
+
+                        <div class = "item">
+                            <div id="testimonial-item">
+                                <div class="img-thumb">
+                                    <img src="assets/img/testimonial/img2.jpg" alt = "">
+                                </div>
+                                <div class = "info">
+                                    <h2><a href = "#">Domeni Gesson</a></h2>
+                                    <h3><a href = "#">Head Designer</a></h3>
+                                </div>
+                            </div>
+                            <div class = "content">
+                                <p class="description">Blank Text</p>
+                            <!--ratings--> 
+                                <div class="star-icon mt-3">
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-half"></i></span>
+                                </div>  
+                            </div>
+                        </div>
+                        <!--3rd-->
+
+
+                        <div class = "item">
+                            <div id="testimonial-item">
+                                <div class="img-thumb">
+                                    <img src="assets/img/testimonial/img3.jpg" alt = "">
+                                </div>
+                                <div class = "info">
+                                    <h2><a href = "#">Domnini Albert</a></h2>
+                                    <h3><a href = "#">Personal Design</a></h3>
+                                </div>
+                            </div>
+                            <div class = "content">
+                                <p class="description">Blank Text</p>
+                            <!--ratings--> 
+                                <div class="star-icon mt-3">
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-half"></i></span>
+                                </div>  
+                            </div>
+                        </div>
+                        <!--4th-->
+                        
+                        <div class = "item">
+                            <div id="testimonial-item">
+                                <div class="img-thumb">
+                                    <img src="assets/img/testimonial/img4.jpg" alt = "">
+                                </div>
+                                <div class = "info">
+                                    <h2><a href = "#">Fernanda Anaya</a></h2>
+                                    <h3><a href = "#">Developer</a></h3>
+                                </div>
+                            </div>
+                            <div class = "content">
+                                <p class="description">Blank Text</p>
+                            <!--ratings--> 
+                                <div class="star-icon mt-3">
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-filled"></i></span>
+                                    <span><i class = "lni-star-half"></i></span>
+                                </div>  
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--End Section-->
+
+
+    <!-- ============ Call To Action ============= -->
+    <section id = "cta" class = "section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="cta-text">
+                        <h4>I am ready to make your project</h4>
+                        <p>Blank text</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 text-right wow fadeInRight" data-wow-delay="0.3s">
+                    <br><a href = "#" class = "btnm btn-common">Hire Me</a></br>
+                </div>
+            </div>
+        </div> 
     </section>
 
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-        <img src = "images/contact-us image.jpg" alt = "Contact Me">
-        <p>Follow my Instagram <a href = "https://www.instagram.com/evanzhang05/?hl=en">@evanzhang05</a></p>
-        <p>Email me at fym4cf@virginia.edu</p>
-    </section>
 
-    <footer>
-        <p>&copy; 2023 Evan Zhang</p>
+
+    <!--============ Contact Section ============-->
+
+    <section id="contact" class = "section-padding bg-gray">
+        <div class="container">
+            <div class = "section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+                    Contact Us
+                </h2>
+                <div class="shape wow fadeInDown" data-wow-delay = "0.3s">
+
+                    <div class = "col-lg-7 col-md-12 col-sm-12">
+                        <div class = "contact-block">
+                            <form id="contactForm">
+                                <div class = "row">
+                                    <div class = "col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name = "name" placeholder="Name" required-data-error="Please Enter Your Name">
+                                            <div class="helpblock with-error">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Email" id="email" class ="form-control" name="email" required-data-error="Please Enter Your Email">
+                                            <div class="helpblock with-error">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class ="col-md-12">
+                                        <div class="form-group">
+                                            <input type = "text" placeholder="Subject" id ="msg_subject" class="form-control" required-data-error="Please Enter Your Subject">
+                                            <div class = "helpblock with-error">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class ="col-md-12">
+                                        <div class="form-group">
+                                            <textarea type = "text" placeholder="Your Message" id ="message" rows = "7" class="form-control" required-data-error="Please Enter Your Message"></textarea>
+                                            <div class = "helpblock with-error">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="submit-button text-left">
+                                            <button class = "btn btn-common" id = "form-subject" type = "submit">
+                                                Send Message
+                                            </button>
+                                            <div id="msSubmit" class="h3 text-center hidden">
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Map-->
+                <div class="col-lg-5 col-md-12 col-xs-12">
+                    <div class = "map">
+                         <object style="border: 0; height: 280px; width:100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5805304977794!2d-78.51793782410432!3d38.03355747192128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3878809ffb1db%3A0x7046e2f68a54f105!2sShannon%20Dorm!5e0!3m2!1sen!2sus!4v1700366649591!5m2!1sen!2sus"></object>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--End Contact Section-->
+
+    <!-- ============ Footer Section ============-->
+
+    <footer id="footer" class="fotter-area section-padding">
+        <div class = "container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-mb-12">
+                        <div class="widget">
+                            <h3 class="footer-logo">
+                                <img src="assets/img/logo.png" alt ="">
+                            </h3>
+                            <div class="textwidget">
+                                <p>Blank Text</p>
+                            </div>
+                            <!--social icon-->
+                            <div class="social-icon">
+                                <a href="" class = "facebook"><i class = "lni-facebook-filled"></i></a>
+                                <a href="" class = "twitter"><i class = "lni-twitter-filled"></i></a>
+                                <a href="" class = "instagram"><i class = "lni-instagram-filled"></i></a>
+                                <a href="" class = "linkedin"><i class = "lni-linkedin-filled"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <h3 class="footer-title">Products</h3>
+                        <ul class="footer-link">
+                            <li><a href="">Tracking</a></li>
+                            <li><a href="">Application</a></li>
+                            <li><a href="">Resource Planning</a></li>
+                            <li><a href="">Enterprices</a></li>
+                            <li><a href="">Employee Management</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <h3 class="footer-title">Resource</h3>
+                        <ul class="footer-link">
+                            <li><a href="">Payment Options</a></li>
+                            <li><a href="">Fee Shedule</a></li>
+                            <li><a href="">Getting Started</a></li>
+                            <li><a href="">Identity Verification</a></li>
+                            <li><a href="">Card Verification</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul class="address">
+                            <li><a href=""><i class="lni-map-marker"></i> 105 Ln Avenue <br> Third Floor Lobby, WB 07</a></li>
+                            <li><a href=""><i class="lni-phone-handset"></i>p:+1 888 888 8888</a></li>
+                            <li><a href=""><i class="lni-envelope"></i>E:fym4cf@virginia.edu</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--============ Copyright ============-->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-content">
+                            <p>Copyright &copy; 2023 <a href="#">Evan Zhang</a> All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <!--back to top-->
+    <a href = "" class="back-to-top">
+        <i class="lni-arrow-up"></i>
+    </a>
 </body>
 </html>
