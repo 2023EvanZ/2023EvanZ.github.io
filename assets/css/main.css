@@ -1091,7 +1091,7 @@ hr {
 /* ============ Contact Section ============ */
 
 .form-control {
-  width: 100%;
+  width: 600px;
   margin-bottom: 20px;
   font-size: 14px;
   border-radius: 4px;
@@ -1110,6 +1110,11 @@ hr {
 
 textarea {
   border-radius: 4px !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
 }
 
 .btn.disabled, .btn:disabled {
