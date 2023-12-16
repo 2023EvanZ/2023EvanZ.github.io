@@ -23,3 +23,9 @@ function clearScreen(){
     document.getElementById('result').value = ''
 
 }
+
+document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 13) {
+        solve();
+    }
+});
