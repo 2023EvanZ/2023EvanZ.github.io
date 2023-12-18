@@ -84,6 +84,12 @@
             searchBtn.addEventListener("click", ()=> {
                 checkWeather(searchBox.value);
             })
+            
+            document.addEventListener('keydown', function(event) {
+                if(event.keyCode == 13) {
+                    solve();
+                }
+            });
         </script>
 
     </body>
