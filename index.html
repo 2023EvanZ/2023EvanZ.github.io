@@ -1,13 +1,481 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evan | Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <title>Evan Zhang - Personal Website</title>
+
+    <!-- boostrap4-->
+    <link rel = "stylesheet" href = "assets/css/bootstrap.min.css">
+
+    <!-- icon style sheet-->
+    <link rel = "stylesheet" href = "assets/fonts/line-icons.css">
+
+    <!-- CSS Style link-->
+    <link rel = "stylesheet" href = "assets/css/main.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header id = "header-wrap">
+        <!--=================== Nav Bar & Header Area ===================-->
+        <nav class = "navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+            <div class = "container">
+                <!--<a href = "#" class = "navbar-brand">
+                    <img src = "assets/img/logo.png"/>
+                </a> -->
+                <!--menu-->
+                <div class = "collapse navbar-collapse" id = "navbarCollapse">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearefix">
+                        <li class="nav-item active">
+                            <a href ="#hero-area" class= "nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#about-me" class= "nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#features" class= "nav-link">Traits</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#team" class= "nav-link">Projects</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href ="#education" class= "nav-link">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--=================== Hero Area ===================-->
+        <div id = "hero-area" class = "hero-area-bg">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <p>My Name Is</p>
+                        <h2 class = "head-title">Evan Zhang</h2>
+                        <h6>I'm A <span>CS Major</span></h6>
+                            <p>Here's my resume: </p>
+                            <div class="header-button">
+                                <!--<a href="#" class = "btn btn-common">Hire Me</a>-->
+                                <a href="assets/Evan Zhang_Resume V6.pdf" download class = "btn btn-border video-popup">Download Resume</a>
+                            </div>
+ 
+                    </div>
+                    <!--Image-->
+                    <div class = "col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class = "intro-img">
+                            <img class = "img-fluid" src = "assets/img/Hero Area Picture.png" alt = ""/>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header> <!--End Personal Area-->
+
+    <!--============ About Area ============-->
+    <div id = "about-me" class="about-area section-padding bg-gray">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-6 col-md-12 col-xs-12 info">
+                    <div class= "about-wrapper wow fadeInLeft" data-wow-delay = "0.3s">
+                        <div>
+                            <div class = "site-heading">
+                                <p class = "mb-3">About Me</p>
+                                <h2 class = "section-title">Learn Something About Me</h2>
+                            </div>
+                            <div class="content">
+                                <p>Hello! I am currently a student at the University of Virginia (UVA).
+                                In my free time, I love to program, swim, read, hike, run, and play sports with friends!
+                                I also love to travel. Last summer I was fortunate enough to visit Iceland,
+                                where I got to climb glaciers and see a volcano eruption live. Before that,
+                                I was tanning on the Hawaiian coast. I look forward to seeing new sights
+                                on future vacations.
+                                If you want to see more updates about my life, follow my 
+                                <a href = "https://www.instagram.com/evanzhang05/?hl=en" target = "_blank">Instagram</a>!
+                                </p>
+                                <a href = "https://www.linkedin.com/in/evan-zhang-1a2616167/" target = "_blank" class = "btn btn-common mt-3">My LinkedIn</a>
+                                <a href="mailto:fym4cf@virginia.edu?subject=Email%20From%20Website&body=Your%20Body%20Text" target = "_blank" class = "btn btn-common mt-3">Send Email</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--about image-->
+                <div class="col-lg-6 col-md-12 col-xs-12 wow fadeinRight" data-wow-dealy = "0.3s">
+                    <img src = "assets/img/About Me Picture.png" alt = "" class = "img-fluid">
+
+                </div>
+            </div>
+        </div>
+    </div> <!--End About Section-->
+
+    <!--============ Feature Section ============-->
+    <section id = "features" class = "section-padding">
+        <div class = "container">
+            <div class = "section-header text-center">
+                <h2 class = "section-title wow fadeInDown" data-wow-delay = "0.3s">
+                    Descriptive Adjectives
+                </h2>
+                <div class="shape wow fadeInDown" data-wow-delay = "0.3s">'
+
+                </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class= "content-left">
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-rocket"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Funny</h4>
+                                <p>I love to make jokes that are sometimes funny.</p>
+                            </div>
+                        </div>
+                        <!--2nd-->
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-laptop-phone"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Helpful</h4>
+                                <p>I tutor and help people out in my free time</p>
+                            </div>
+                        </div>
+                        <!--3rd-->
+                        <div class = "box-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-cog"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Experimental</h4>
+                                <p>I always try new things out.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--about image-->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class = "show-box wow fadeInUp" data-wow-delay="0.3s">
+                        <img src ="assets/img/About Me Picture.png" alt = "">
+
+                    </div>
+                </div>
+
+
+                <!--2nd row-->
+                <div class = "col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class= "content-right">
+                        <div class = "box-item wow fadeInRightt" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-leaf"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Curious</h4>
+                                <p>I love to ask questions and learn more.</p>
+                            </div>
+                        </div>
+                        <!--2nd-->
+                        <div class = "box-item wow fadeInRight" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-layers"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Resourceful</h4>
+                                <p>I am always able to solve problems in the end.</p>
+                            </div>
+                        </div>
+                        <!--3rd-->
+                        <div class = "box-item wow fadeInRight" data-wow-delay="0.3s">
+                            <span class = "icon">
+                                <i class = "lni-star"></i>
+
+                            </span>
+                            <div class="text">
+                                <h4>Motivated</h4>
+                                <p>I am a man of action.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section> <!--End Service-->
+
+    <!--============ Team Section ============-->
+    <section id = "team" class = "section-padding bg-gray">
+        <div class = "container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay = "0.3s">
+                    Projects
+                </h2>
+                <div class = "shape wow fadeInDown" data-wow-delay="0.3s">
+
+                </div>
+                
+                <!--team Item Starts-->
+                <div class = "row">
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/website.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">My New Website</a></h3>
+                                    <p>Features React.js and cool interactive features!</p>
+                                </div>
+                                <p><a href = "https://deft-dragon-81fcd1.netlify.app/" target = "_blank">My New Website</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <img src="assets/img/team/advice-app img.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">Advice App</a></h3>
+                                    <p>Get some advice with React.js!</p>
+                                </div>
+                                <p><a href = "https://profound-salamander-c77af7.netlify.app/" target = "_blank">Advice App</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/text_to_speech img.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">Text to Speech App</a></h3>
+                                    <p>Listen to an AI voiceover!</p>
+                                </div>
+                                <p><a href = "text-to-speech/text_index.html" target = "_blank">Text to Speech App</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/weather-icon.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">Weather App</a></h3>
+                                    <p>Find Your Weather Forecast!</p>
+                                </div>
+                                <p><a href = "weather app/weather_index.html" target = "_blank">Weather App</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/to-do_img.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">To-Do List</a></h3>
+                                    <p>Custom Tasks List!</p>
+                                </div>
+                                <p><a href = "to-do list/to-do_index.html" target = "_blank">To-Do List App</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/calculator_image.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">Calculator</a></h3>
+                                    <p>Check it out!</p>
+                                </div>
+                                <p><a href = "calc/calculator.html" target = "_blank">Calculator App</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-lg-6 col-md-12 col-xs-12">
+                        <div class = "team-item wow fadeInRight" data-wow-delay="0.4s">
+                            <div class = "team-img">
+                                <!--image-->
+                                <img src="assets/img/team/github icon.png" alt = "">
+                            </div>
+                            <div class="content">
+                                <div class="info-text">
+                                    <h3><a href = "#">GitHub</a></h3>
+                                    <p>See my other projects!</p>
+                                </div>
+                                <p><a href = "https://github.com/2023EvanZ" target = "_blank">My GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section> <!--End Section-->
+
+     <!--============ About Area ============-->
+     <div id = "education" class="about-area section-padding bg-gray">
+        <div class = "container">
+            <div class = "row">
+                <div class="col-lg-6 col-md-12 col-xs-12 wow fadeinRight" data-wow-dealy = "0.3s">
+                    <img src = "assets/img/Graduation Image.png" alt = "" class = "img-fluid">
+                </div>
+                <div class = "col-lg-6 col-md-12 col-xs-12 info">
+                    <div class= "about-wrapper wow fadeInLeft" data-wow-delay = "0.3s">
+                        <div>
+                            <div class = "site-heading">
+                                <p class = "mb-3">Education</p>
+                                <h2 class = "section-title">My Learning Journey</h2>
+                            </div>
+                            <div class="content">
+                                <p> As I previously said, I am currently attending UVA with a potential major in Computer Science.
+                                    I graduated from <strong>Thomas Jefferson High School for Science and Technology</strong> with an <strong>Advanced Studies Diploma</strong>.
+                                    In high school, I enrolled in AP CS, then Mobile & Web Development Courses, and then Artificial Intelligence.
+                                    To complement these CS courses, I took AP Calculus BC, then Multivariable Calculus and Linear Algebra.
+                                </p>
+                                <p>
+                                    Now, at UVA, I took Discrete Math Theory and Linear Algebra, this time with a huge emphasis on proofs. 
+                                    I plan on taking Data Structure & Algorithmns 2, Computer Systems & Organizations, and Software Development Essentials. 
+                                    Can't wait to see what else I can take!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--End About Section-->
+
+    <!--============ Contact Section ============-->
+    <!--
+    <section id="contact" class = "section-padding bg-gray">
+        <div class="container">
+            <div class = "section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+                    Contact Us
+                </h2>
+                <div class="shape wow fadeInDown" data-wow-delay = "0.3s">
+                    <div class = "col-lg-7 col-md-12 col-sm-12">
+                        <div class = "contact-block">
+                            <form id="contactForm">
+                                <div class = "row">
+                                    <div class = "col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name = "name" placeholder="Name" required data-error="Please Enter Your Name" style="z-index: 1000;">
+                                            <div class="helpblock with-error">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Email" id="email" class ="form-control" name="email" required data-error="Please Enter Your Email">
+                                            <div class="helpblock with-error">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class ="col-md-12">
+                                        <div class="form-group">
+                                            <input type = "text" placeholder="Subject" id ="msg_subject" class="form-control" required data-error="Please Enter Your Subject">
+                                            <div class = "helpblock with-error">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class ="col-md-12">
+                                        <div class="form-group">
+                                            <textarea type = "text" placeholder="Your Message" id ="message" rows = "7" class="form-control" required data-error="Please Enter Your Message"></textarea>
+                                            <div class = "helpblock with-error">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="submit-button text-left">
+                                            <button class = "btn btn-common" id = "form-subject" type = "submit">
+                                                Send Message
+                                            </button>
+                                            <div id="msSubmit" class="h3 text-center hidden">
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Map--> <!--
+                <div class="col-lg-5 col-md-12 col-xs-12">
+                    <div class = "map">
+                         <object style="border: 0; height: 280px; width:100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5805304977794!2d-78.51793782410432!3d38.03355747192128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3878809ffb1db%3A0x7046e2f68a54f105!2sShannon%20Dorm!5e0!3m2!1sen!2sus!4v1700366649591!5m2!1sen!2sus"></object>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section> <!--End Contact Section--> <!---->
+
+    <!-- ============ Footer Section ============-->
+
+    <footer id="footer" class="fotter-area section-padding">
+        <!--============ Copyright ============-->
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-content">
+                            <p>Copyright &copy; 2023 <a href="#">Evan Zhang</a> All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--back to top-->
+    <a href = "" class="back-to-top">
+        <i class="lni-arrow-up"></i>
+    </a>
+</body>
 </html>
